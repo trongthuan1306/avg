@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Tính điểm trung bình</title>
+    <!--connect css -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Tính điểm trung bình</h1>
+    <p>Nhập điểm hk1 và hk2 để bắt đầu tính điểm trung bình</p>
+    <div>
+      <label for="avg1">điểm hk1 :</label>
+      <input type="number" id="avg1" />
+    </div>
+    <div>
+      <label for="avg2">điểm hk2 :</label>
+      <input type="number" id="avg2" />
+    </div>
+    <button onclick="calcAvg()">Xác Nhận</button>
+    <p class="result" id="result">
+      Điểm trung bình cả năm : <strong id="score"></strong>
+    </p>
+    <!--connect js-->
+    <script src="./index.js"></script>
+  </body>
+</html>

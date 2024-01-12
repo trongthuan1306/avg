@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+/* giúp trang trí thẻ */
+/* css selector */
+/*chỉ ra thẻ nào cần style */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  padding: 10px 25px;
+}
+h1 {
+  background-color: aquamarine;
+  color: brown;
+  padding: 20px;
+}
+label {
+  width: 100px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+}
+input {
+  width: calc(100% - 100px);
+  padding: 10px 15px;
+}
+div {
+  white-space: nowrap;
+  margin: 20px 0;
+}
+button {
+  padding: 15px 30px;
+  background-color: #22c55e;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+.kq {
+  background-color: rgb(220 252 231);
+  color: rgb(21 128 61);
+  border: 1px solid rgb(187 247 208);
+  display: none;
+}
